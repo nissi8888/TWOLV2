@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" type="image/x-icon" href="/images/Logo-Square.png">
+    
+
+    <!--====CSS====-->
+    <link rel="stylesheet" href="/style.css">
+
+
+    <!--====Boxicons CSS====-->
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'> 
+    
+    
+    <title>TWOLV</title>
+</head>
+<body>
+    
+    <nav>
+        <div class="nav-bar">
+            <i class="bx bx-menu sidebarOpen"></i>
+            <span class="logo-txt">The Well of Life Vision</span>
+            <img class="logo navLogo" src="/images/Logo-Square.png" alt="TWOLV Logo" height="80">
+
+
+        <div class="menu">
+
+            <div class="logo-toggle">
+                <img class="logo navLogo" src="/images/Logo-Square.png" alt="TWOLV Logo" height="80">
+                <i class="bx bx-x sidebarClose"></i>
+            </div>
+
+            <ul class="nav-links">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="about.html">About Us</a></li>
+                <li><a href="gallery.html">Gallery</a></li>
+                <li><a href="blog.html">Youth Work</a></li>
+                <li><a href="contact.html">Contact Us</a></li>
+            </ul>
+        </div>
+        
+
+        <div class="container-sub">
+            <div class="subscribe-btn">
+                <button class="sub-btn" onclick="openPopup()">Subscribe Now !</button>
+                    <div class="newsletter-sub" id="subup">
+                        <i class="bx bx-x bx-lg bx-spin-hover" onclick="closePopup()" ></i>
+                        <h1>Get Newsletter</h1>
+                        <hr>
+                        <p>Enter your email in the box below to recieve latest news and information about our activities</p>
+                        <form action="https://api.web3forms.com/submit" method="post">
+                            <input type="hidden" name="access_key" value="454c8e31-a59c-4a31-be9a-a890f87d0fc4">
+                            <input type="hidden" name="redirect" value="http://127.0.0.1:5500/thankyou.html">
+                            <input type="email" name="email" required>
+                            <input type="hidden" name="First Name">
+                            <input type="hidden" name="Last Name">
+                            <br>
+                            <button type="submit">Submit Now</button>
+                        </form>
+                    </div>
+            </div>
+        </div>
+
+    </div>
+    </nav>
+
+      <!--====CONTACT Form====-->  
+
+
+
+        <div class="contact-heading">
+            <h1>Contact Us</h1>
+        </div>
+
+        <div class="contact">
+            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3384.359795537694!2d115.89234217534352!3d-31.978260623637812!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2a32bb773f8e3e33%3A0x74df477589a71266!2s144%20Washington%20St%2C%20Victoria%20Park%20WA%206100%2C%20Australia!5e0!3m2!1sen!2sin!4v1720332754334!5m2!1sen!2sin" width="1512" height="400" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+        </div>
+
+        <div class="hr-line"><br>
+            <hr>
+        </div>
+
+        <div class="contact-container">
+            <form action="https://api.web3forms.com/submit" method="POST" class="contact-left">
+                <div class="contact-left-title">
+                    <h2>Contact-us</h2>
+                <hr>
+                </div>
+                <input type="hidden" name="access_key" value="454c8e31-a59c-4a31-be9a-a890f87d0fc4">
+                <!-- `replyto` email will be the given value.  -->
+               <input type="hidden" name="replyto"/>
+                <input type="hidden" name="subject" value="New Submission from TWOLV">
+                <input type="hidden" name="redirect" value="htpps:/http://127.0.0.1:5500/index.html">
+                <input type="text" name="name" placeholder="Your Name" class="contact-inputs" required>
+                <input type="email" name="email" placeholder="Your Email" class="contact-inputs" required>
+                <textarea name="message" placeholder="Your Message" class="contact-inputs" required></textarea>
+                <button type="submit">Submit</button>
+            </form>
+            <div class="contact-right">
+                <img src="/images/background-contact.png" alt="">
+    
+            </div>
+        </div>
+
+        <div class="hr-line">
+            <hr>
+        </div>
+
+        <footer class="footer">
+            <div class="footer-container">
+                <div class="footer-row">
+                    <div class="footer-col">
+                        <h4>TWOLV</h4>
+                        <ul>
+                            <li><a href="#">Home</a></li>
+                            <li><a href="#">About Us</a></li>
+                            <li><a href="#">Gallery</a></li>
+                        </ul>
+                    </div>
+                    <div class="footer-col">
+                        <h4>get help</h4>
+                        <ul>
+                            <li><a href="#">FAQ</a></li>
+                            <li><a href="#">Help</a></li>
+                            <li><a href="#">Contact Us</a></li>
+                        </ul>
+                    </div>
+                    <div class="footer-col">
+                        <h4>Subscribe</h4>
+                        <ul>
+                            <li><a href="#">Newsletter</a></li>
+                            <li><a href="#">Donate</a></li>
+                            <li><a href="#">blog</a></li>
+                        </ul>
+                    </div>
+                    <div class="footer-col">
+                        <h4>follow us</h4>
+                        <div class="social-links">
+                            <a href="#"><i class="bx bxl-facebook-circle"></i></a>
+                            <a href="#"><i class="bx bxl-twitter"></i></a>
+                            <a href="#"><i class="bx bxl-instagram"></i></a>
+        
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </footer>
+
+
+        <script src="/script.js"></script>
+
+</body>
+</html>

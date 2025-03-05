@@ -1,0 +1,221 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" type="image/x-icon" href="/images/Logo-Square.png">
+    
+
+    <!--====CSS====-->
+    <link rel="stylesheet" href="/style.css">
+
+
+    <!--====Boxicons CSS====-->
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'> 
+    
+    
+    <title>TWOLV</title>
+</head>
+<body>
+
+    <nav>
+        <div class="nav-bar">
+            <i class="bx bx-menu sidebarOpen"></i>
+            <span class="logo-txt">The Well of Life Vision</span>
+            <img class="logo navLogo" src="/images/Logo-Square.png" alt="TWOLV Logo" height="80">
+
+
+        <div class="menu">
+
+            <div class="logo-toggle">
+                <img class="logo navLogo" src="/images/Logo-Square.png" alt="TWOLV Logo" height="80">
+                <i class="bx bx-x sidebarClose"></i>
+            </div>
+
+            <ul class="nav-links">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="about.html">About Us</a></li>
+                <li><a href="gallery.html">Gallery</a></li>
+                <li><a href="blog.html">Support</a></li>
+                <li><a href="contact.html">Contact Us</a></li>
+            </ul>
+        </div>
+        
+
+        <div class="container-sub">
+            <div class="subscribe-btn">
+                <button class="sub-btn" onclick="openPopup()">Subscribe Now !</button>
+                    <div class="newsletter-sub" id="subup">
+                        <i class="bx bx-x bx-lg bx-spin-hover" onclick="closePopup()" ></i>
+                        <h1>Get Newsletter</h1>
+                        <hr>
+                        <p>Enter your email in the box below to recieve latest news and information about our activities</p>
+                        <form action="https://api.web3forms.com/submit" method="post">
+                            <input type="hidden" name="access_key" value="454c8e31-a59c-4a31-be9a-a890f87d0fc4">
+                            <input type="hidden" name="redirect" value="http://127.0.0.1:5500/thankyou.html">
+                            <input type="email" name="email" required>
+                            <input type="hidden" name="First Name">
+                            <input type="hidden" name="Last Name">
+                            <br>
+                            <button type="submit">Submit Now</button>
+                        </form>
+                    </div>
+            </div>
+        </div>
+
+
+
+    </div>
+    </nav>
+
+    <section>
+        <div class="gallery-heading">
+            <h1>Blog</h1>
+        </div>
+    
+        <div class="card-container">
+    
+            <div class="card-blog">
+                <img src="/images/gallery_02.jpg" alt="">
+                <div class="card-content">
+                    <h3>Card 1</h3>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut a hendrerit turpis, in ornare felis. Duis arcu elit, sodales fermentum pellentesque nec, tincidunt sit amet orci. Maecenas eget nibh sit amet ipsum volutpat dignissim pharetra quis quam. Ut sagittis nulla vitae metus</p>
+                </div>
+
+                <div class="like-dislike">
+                    <button class="like-btn"><i class='bx bx-like'></i> Like <span class="like-count">0</span></button>
+                    <button class="dislike-btn"><i class='bx bx-dislike'></i> Dislike <span class="dislike-count">0</span></button>
+                  </div>
+            </div>
+    
+            <div class="card-blog">
+                <img src="/images/gallery_03.jpg" alt="">
+                <div class="card-content">
+                    <h3>Card 1</h3>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut a hendrerit turpis, in ornare felis. Duis arcu elit, sodales fermentum pellentesque nec, tincidunt sit amet orci. Maecenas eget nibh sit amet ipsum volutpat dignissim pharetra quis quam. Ut sagittis nulla vitae metus</p>
+                </div>
+                <div class="like-dislike">
+                    <button class="like-btn"><i class='bx bx-like'></i> Like <span class="like-count">0</span></button>
+                    <button class="dislike-btn"><i class='bx bx-dislike'></i> Dislike <span class="dislike-count">0</span></button>
+                  </div>
+            </div>
+    
+            <div class="card-blog">
+                <img src="/images/gallery_04.jpg" alt="">
+                <div class="card-content">
+                    <h3>Card 1</h3>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut a hendrerit turpis, in ornare felis. Duis arcu elit, sodales fermentum pellentesque nec, tincidunt sit amet orci. Maecenas eget nibh sit amet ipsum volutpat dignissim pharetra quis quam. Ut sagittis nulla vitae metus</p>
+                </div>
+                <div class="like-dislike">
+                    <button class="like-btn"><i class='bx bx-like'></i> Like <span class="like-count">0</span></button>
+                    <button class="dislike-btn"><i class='bx bx-dislike'></i> Dislike <span class="dislike-count">0</span></button>
+                  </div>
+            </div>
+    
+            <div class="card-blog">
+                <img src="/images/gallery_05.jpg" alt="">
+                <div class="card-content">
+                    <h3>Card 1</h3>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut a hendrerit turpis, in ornare felis. Duis arcu elit, sodales fermentum pellentesque nec, tincidunt sit amet orci. Maecenas eget nibh sit amet ipsum volutpat dignissim pharetra quis quam. Ut sagittis nulla vitae metus</p>
+                </div>
+                <div class="like-dislike">
+                    <button class="like-btn"><i class='bx bx-like'></i> Like <span class="like-count">0</span></button>
+                    <button class="dislike-btn"><i class='bx bx-dislike'></i> Dislike <span class="dislike-count">0</span></button>
+                  </div>
+            </div>
+    
+            <div class="card-blog">
+                <img src="/images/gallery_06.jpg" alt="">
+                <div class="card-content">
+                    <h3>Card 1</h3>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut a hendrerit turpis, in ornare felis. Duis arcu elit, sodales fermentum pellentesque nec, tincidunt sit amet orci. Maecenas eget nibh sit amet ipsum volutpat dignissim pharetra quis quam. Ut sagittis nulla vitae metus</p>
+                </div>
+                <div class="like-dislike">
+                    <button class="like-btn"><i class='bx bx-like'></i> Like <span class="like-count">0</span></button>
+                    <button class="dislike-btn"><i class='bx bx-dislike'></i> Dislike <span class="dislike-count">0</span></button>
+                  </div>
+            </div>
+    
+            <div class="card-blog">
+                <img src="/images/gallery_01.jpg" alt="">
+                <div class="card-content">
+                    <h3>Card 1</h3>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut a hendrerit turpis, in ornare felis. Duis arcu elit, sodales fermentum pellentesque nec, tincidunt sit amet orci. Maecenas eget nibh sit amet ipsum volutpat dignissim pharetra quis quam. Ut sagittis nulla vitae metus</p>
+                </div>
+                <div class="like-dislike">
+                    <button class="like-btn"><i class='bx bx-like'></i> Like <span class="like-count">0</span></button>
+                    <button class="dislike-btn"><i class='bx bx-dislike'></i> Dislike <span class="dislike-count">0</span></button>
+                  </div>
+            </div>
+    
+            <div class="card-blog">
+                <img src="/images/gallery_02.jpg" alt="">
+                <div class="card-content">
+                    <h3>Card 1</h3>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut a hendrerit turpis, in ornare felis. Duis arcu elit, sodales fermentum pellentesque nec, tincidunt sit amet orci. Maecenas eget nibh sit amet ipsum volutpat dignissim pharetra quis quam. Ut sagittis nulla vitae metus</p>
+                </div>
+                <div class="like-dislike">
+                    <button class="like-btn"><i class='bx bx-like'></i> Like <span class="like-count">0</span></button>
+                    <button class="dislike-btn"><i class='bx bx-dislike'></i> Dislike <span class="dislike-count">0</span></button>
+                  </div>
+            </div>
+    
+            <div class="card-blog">
+                <img src="/images/gallery_03.jpg" alt="">
+                <div class="card-content">
+                    <h3>Card 1</h3>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut a hendrerit turpis, in ornare felis. Duis arcu elit, sodales fermentum pellentesque nec, tincidunt sit amet orci. Maecenas eget nibh sit amet ipsum volutpat dignissim pharetra quis quam. Ut sagittis nulla vitae metus</p>
+                </div>
+                <div class="like-dislike">
+                    <button class="like-btn"><i class='bx bx-like'></i> Like <span class="like-count">0</span></button>
+                    <button class="dislike-btn"><i class='bx bx-dislike'></i> Dislike <span class="dislike-count">0</span></button>
+                  </div>
+            </div>
+        </div>
+    </section>
+
+    <footer class="footer">
+        <div class="footer-container">
+            <div class="footer-row">
+                <div class="footer-col">
+                    <h4>TWOLV</h4>
+                    <ul>
+                        <li><a href="#">Home</a></li>
+                        <li><a href="#">About Us</a></li>
+                        <li><a href="#">Gallery</a></li>
+                    </ul>
+                </div>
+                <div class="footer-col">
+                    <h4>get help</h4>
+                    <ul>
+                        <li><a href="#">FAQ</a></li>
+                        <li><a href="#">Help</a></li>
+                        <li><a href="#">Contact Us</a></li>
+                    </ul>
+                </div>
+                <div class="footer-col">
+                    <h4>Subscribe</h4>
+                    <ul>
+                        <li><a href="#">Newsletter</a></li>
+                        <li><a href="#">Donate</a></li>
+                        <li><a href="#">blog</a></li>
+                    </ul>
+                </div>
+                <div class="footer-col">
+                    <h4>follow us</h4>
+                    <div class="social-links">
+                        <a href="#"><i class="bx bxl-facebook-circle"></i></a>
+                        <a href="#"><i class="bx bxl-twitter"></i></a>
+                        <a href="#"><i class="bx bxl-instagram"></i></a>
+    
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+    
+
+    <script src="/script.js"></script>
+</body>
+</html>
