@@ -668,7 +668,7 @@ nav .nav-bar .sidebarOpen{
 }
 
 .newsletter-img{
-    background-image: url(/images/twolv.png);
+    background-image: url(images/twolv.png);
     background-size: cover;
 }
 
@@ -1051,7 +1051,7 @@ margin-bottom: 3px;
 }
 
 .newsletter-img{
-    background-image: url(/images/twolv.png);
+    background-image: url(images/twolv.png);
     background-size: contain;
     background-repeat: no-repeat;
 }
